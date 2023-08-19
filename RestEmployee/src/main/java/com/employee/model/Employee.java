@@ -36,7 +36,7 @@ public class Employee {
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	@Column(name = "ecode")
 	private Integer eCode;
-	@Column(name = "efirstname")
+	@Column(name = "efirstname", nullable = false)
 	private String efirstname;
 	@Column(name = "emiddlename")
 	private String emiddlename;
